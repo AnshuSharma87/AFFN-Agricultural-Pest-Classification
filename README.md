@@ -121,9 +121,6 @@ to improve reproducibility and transparency of the proposed framework.
 
 ---
 
-## Citation
-
-If you use this work, please cite the corresponding research paper.
 
 ---
 
