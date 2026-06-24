@@ -40,6 +40,7 @@ AFFN-Agricultural-Pest-Classification/
 | 06_temperature_tau_1_0.ipynb | Temperature sensitivity experiment (τ = 1.0) |
 | 07_temperature_tau_1_5.ipynb | Temperature sensitivity experiment (τ = 1.5) |
 | 08_ip102_experiment.ipynb    | Evaluation on IP102 dataset                  |
+| 09_regularized_affn.ipynb    | Regularixation of AFFN                       |
 
 ---
 
@@ -51,6 +52,7 @@ AFFN-Agricultural-Pest-Classification/
 * CLAHE preprocessing
 * Fine-grained agricultural pest classification
 * Evaluation on Agricultural Pest Dataset and IP102 Dataset
+* Regularization of AFFN for Ablation of Generalizability
 
 ---
 
@@ -116,6 +118,7 @@ The repository contains:
 * adaptive fusion implementation
 * temperature sensitivity experiments
 * IP102 evaluation experiments
+* Regularized AFFN
 
 to improve reproducibility and transparency of the proposed framework.
 
