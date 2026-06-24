@@ -40,7 +40,7 @@ AFFN-Agricultural-Pest-Classification/
 | 06_temperature_tau_1_0.ipynb | Temperature sensitivity experiment (τ = 1.0) |
 | 07_temperature_tau_1_5.ipynb | Temperature sensitivity experiment (τ = 1.5) |
 | 08_ip102_experiment.ipynb    | Evaluation on IP102 dataset                  |
-| 09_regularized_affn.ipynb    | Regularixation of AFFN                       |
+| 09_regularized_affn.ipynb    | Regularization of AFFN                       |
 
 ---
 
