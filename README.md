@@ -52,7 +52,8 @@ AFFN-Agricultural-Pest-Classification/
 * CLAHE preprocessing
 * Fine-grained agricultural pest classification
 * Evaluation on Agricultural Pest Dataset and IP102 Dataset
-* Regularization of AFFN for Ablation of Generalizability
+* Controlled regularization experiment for generalization analysis
+* Ablation study demonstrating the contribution of adaptive fusion and complementary regularization
 
 ---
 
@@ -121,6 +122,35 @@ The repository contains:
 * Regularized AFFN
 
 to improve reproducibility and transparency of the proposed framework.
+
+---
+---
+
+## Additional Regularization Experiment
+
+The repository includes a controlled regularization experiment performed to evaluate the generalization capability of the proposed Adaptive Feature Fusion Network (AFFN).
+
+To isolate the effect of regularization, the AFFN architecture was kept unchanged throughout the experiment. The following components remain identical to the original implementation:
+
+* ResNet50 backbone
+* Vision Transformer (ViT-B/16) backbone
+* Adaptive feature fusion module
+* Temperature-regulated gating mechanism
+* Linear projection layer
+* Classification head
+* Batch size
+* Number of training epochs
+* Dataset split
+
+Only the following regularization strategies were introduced:
+
+* Stronger data augmentation
+* Dropout regularization
+* Label smoothing
+* AdamW optimizer
+* Cosine annealing learning-rate scheduler
+
+This experiment corresponds to the additional ablation study reported in the manuscript and demonstrates that the observed improvement in validation performance is primarily attributable to complementary regularization while preserving the original AFFN architecture.
 
 ---
 
